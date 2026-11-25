@@ -6,6 +6,10 @@ import { ArrowUpLeft, ArrowUpRight, Download, Linkedin, Mail, Copy, Check } from
 // https://alizadeelham.github.io/ElhamAlizadeh-Portfolio/<file> once published there.
 const PHOTO = "/photo_2026-09-07_11-36-05.jpg";
 const RESUME = "/Elham_Alizadeh.pdf";
+const GH_PAGES = "https://alizadeelham.github.io/ElhamAlizadeh-Portfolio";
+// Social previews need an absolute URL, so derive it from wherever the page is served.
+const SITE_ORIGIN =
+  typeof window !== "undefined" ? window.location.origin : GH_PAGES;
 const EMAIL = "Elhamalizadeh.tula@Gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/elham-alizadeh-a45ab913a";
 
@@ -17,9 +21,9 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "الهام علیزاده — مدیر محصول" },
       { property: "og:description", content: "مدیر محصول در فین‌تک و هوش مصنوعی؛ از شناخت مسئله تا سنجش نتیجه." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: PHOTO },
+      { property: "og:image", content: `${SITE_ORIGIN}${PHOTO}` },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: PHOTO },
+      { name: "twitter:image", content: `${SITE_ORIGIN}${PHOTO}` },
     ],
   }),
   component: Index,
