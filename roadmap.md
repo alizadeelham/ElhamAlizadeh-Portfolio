@@ -1,0 +1,5 @@
+- [x] Configure production repository basepath and explicit static prerendering while keeping local development at root.
+- [x] Make photo, résumé, favicon, and generated assets subpath-aware without changing design or copy.
+- [x] Verify local photo/PDF/favicon and both language directions; eight path/routing tests pass.
+- [ ] Verify production build output and static-only browser behavior — blocked: this environment prohibits manual production builds and its automatic checks produced no deployment files.
+- [x] Identify `dist/client/` as the configured static deployment directory; report that its contents remain unverified and do not deploy.

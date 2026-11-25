@@ -8,11 +8,23 @@
 // hosting already compresses at the edge.
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import type { ConfigEnv } from "vite";
 
-export default defineConfig({
-  tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
-  },
-});
+export default (env: ConfigEnv) => {
+  // Prerendering starts Vite's production preview, which must use the same base.
+  const base = (env.command === "build" || env.isPreview) && env.mode !== "development"
+    ? "/ElhamAlizadeh-Portfolio/"
+    : "/";
+
+  return defineConfig({
+    vite: { base },
+    tanstackStart: {
+      // Keep Lovable's existing server entry for development and build-time rendering.
+      // GitHub Pages serves only dist/client; the server bundle is not deployed.
+      server: { entry: "server" },
+      router: { basepath: base },
+      pages: [{ path: "/" }],
+      prerender: { enabled: true, autoStaticPathsDiscovery: false, crawlLinks: false },
+    },
+  })(env);
+};

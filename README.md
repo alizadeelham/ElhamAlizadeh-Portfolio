@@ -6,7 +6,7 @@ I'm a Product Manager with 6+ years of experience in fintech, digital products, 
 
 ## Portfolio
 
-🌐 **Live Website:** [View My Portfolio](https://alizadeelham.github.io/minimal-portfolio-refresh/)
+🌐 **Live Website:** [View My Portfolio](https://alizadeelham.github.io/ElhamAlizadeh-Portfolio/)
 
 ## Areas of Focus
 
@@ -20,6 +20,16 @@ I'm a Product Manager with 6+ years of experience in fintech, digital products, 
 ## About This Repository
 
 This repository contains the source code of my personal portfolio website, showcasing my professional experience, selected projects, and product management journey.
+
+## GitHub Pages build
+
+- Repository: `alizadeelham/ElhamAlizadeh-Portfolio`.
+- Install dependencies with `bun install --frozen-lockfile`, then run `bun run build`.
+- Deploy **only `dist/client/`**, whose root contains the prerendered `index.html`, `assets/`, the profile JPG, résumé PDF, favicon, and `.nojekyll`.
+- Do not deploy `dist/server/`, start a server, or nest the output inside another `ElhamAlizadeh-Portfolio` folder. GitHub Pages supplies the repository URL prefix.
+- Production builds use `/ElhamAlizadeh-Portfolio/`; `bun run dev` and development-mode builds keep `/` for Lovable development.
+- TanStack Start renders the public page during the build. Its generated client files hydrate the page directly on static hosting; no server runtime is required after deployment.
+- The existing Lovable configuration retains ownership of all Vite/TanStack plugins and its build-time server entry.
 
 ---
 

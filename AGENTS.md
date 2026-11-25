@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep the existing Lovable Vite wrapper as the sole plugin owner; production builds use a repository basepath while development stays at root, so no duplicate plugins or local-path regressions are introduced.
+- Prerender only the explicitly listed public portfolio route and deploy only `dist/client` to static hosting; the server bundle exists solely for build-time rendering and Lovable hosting.
+- Resolve public assets and router basepaths from Vite's `BASE_URL` so browser hydration, downloads, and static HTML agree under a repository subpath.
