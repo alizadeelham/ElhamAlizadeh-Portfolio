@@ -94,7 +94,7 @@ const T = {
     resume: "Résumé",
     nav: [
       { href: "#about", label: "About me" },
-      { href: "#work", label: "Results" },
+      { href: "#work", label: "Work" },
       { href: "#skills", label: "Expertise" },
       { href: "#contact", label: "Contact" },
     ],
