@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "الهام علیزاده — مدیر محصول فین‌تک و هوش مصنوعی" },
-      { name: "description", content: "مدیر محصول با ۶+ سال تجربه در فین‌تک و بانکداری؛ کمک به رشد Ayan از ۸ به ۱۵+ میلیون کاربر." },
+      { name: "description", content: "مدیر محصول با ۶+ سال تجربه در فین‌تک و بانکداری؛ کمک به رشد Ayan از ۸ به ۱۶+ میلیون کاربر." },
       { property: "og:title", content: "الهام علیزاده — مدیر محصول" },
       { property: "og:description", content: "مدیر محصول در فین‌تک و هوش مصنوعی؛ از شناخت مسئله تا سنجش نتیجه." },
       { property: "og:type", content: "website" },
@@ -33,7 +33,7 @@ const nav = [
 
 const stats = [
   { v: "+۶", l: "سال تجربه" },
-  { v: "+۱۵M", l: "کاربر" },
+  { v: "+۱۶M", l: "کاربر" },
   { v: "+۳۲٪", l: "نرخ تکمیل فرایند" },
   { v: "+۱۳٪", l: "نرخ تبدیل" },
 ];
@@ -42,9 +42,9 @@ const work = [
   {
     tag: "فین‌تک و رشد",
     title: "پرداخت روزمره، ساده‌تر برای میلیون‌ها نفر",
-    metric: "8M → 15M+",
+    metric: "8M → 16M+",
     metricLabel: "رشد کاربران",
-    body: "با کشف و عرضهٔ خدمات تازه، به رشد کاربران Ayan از ۸ به بیش از ۱۵ میلیون کمک کردم. اپ iOS را هم با تیمی کوچک از صفر راه انداختیم.",
+    body: "با کشف و عرضهٔ خدمات تازه، به رشد کاربران Ayan از ۸ به بیش از ۱۶ میلیون کمک کردم. اپ iOS را هم با تیمی کوچک از صفر راه انداختیم.",
     focus: "استراتژی محصول · کشف خدمات · تحویل",
   },
   {
@@ -133,7 +133,7 @@ function Index() {
               <span className="text-primary">تا محصولی که رشد می‌کند.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-9 text-muted-foreground">
-              مدیر محصولم با ۶ سال تجربه در فین‌تک و بانکداری. در Ayan به رشد محصول از ۸ به ۱۵ میلیون کاربر کمک کردم؛ با تکیه بر داده، آزمایش و هوش مصنوعی.
+              من به‌عنوان مدیر محصول، بیش از ۶ سال در حوزه فین‌تک و بانکداری فعالیت کرده‌ام و در Ayan با تکیه بر تحلیل داده، آزمایش و به‌کارگیری هوش مصنوعی، به رشد محصول از ۸ به ۱۶ میلیون کاربر کمک کرده‌ام.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90">
