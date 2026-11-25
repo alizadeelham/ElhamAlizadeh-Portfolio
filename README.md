@@ -1,27 +1,26 @@
-# Minimal Portfolio Refresh
+# Elham Alizadeh | Product Manager
 
-https://alizadeelham.github.io/alizadeelham-Resume/
+Welcome to my portfolio repository.
 
-این لینک پورتفلیو منه. الان میخوام بهترش کنم. دیزاینش در عین سادگی خیلی حرفه ای بنظر برسه.
-با توجه به پورتفولیوی فعلی، بهترین قالب خروجی و رنگ‌بندی را انتخاب کن و بعد نسخهٔ مینیمال و حرفه‌ای را آماده کن.
+I'm a Product Manager with 6+ years of experience in fintech, digital products, and payment platforms. I focus on building user-centered products, driving product growth, and turning business needs into impactful digital experiences.
 
-This project was built with [Lovable](https://lovable.dev).
+## Portfolio
 
-## Build with Lovable
+🌐 **Live Website:** [View My Portfolio](https://alizadeelham.github.io/minimal-portfolio-refresh/)
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/17a28f2b-0717-4088-90c1-813751a3bf0d).
+## Areas of Focus
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- Product Strategy & Roadmapping
+- User Research & Product Discovery
+- Data-Driven Decision Making
+- Product Growth & Optimization
+- Cross-functional Collaboration
+- Fintech & Digital Payment Products
 
-## Development
+## About This Repository
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+This repository contains the source code of my personal portfolio website, showcasing my professional experience, selected projects, and product management journey.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+---
+
+© Elham Alizadeh
