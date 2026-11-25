@@ -1,14 +1,19 @@
-# Welcome to your Lovable project
+# Minimal Portfolio Refresh
+
+https://alizadeelham.github.io/alizadeelham-Resume/
+
+این لینک پورتفلیو منه. الان میخوام بهترش کنم. دیزاینش در عین سادگی خیلی حرفه ای بنظر برسه.
+با توجه به پورتفولیوی فعلی، بهترین قالب خروجی و رنگ‌بندی را انتخاب کن و بعد نسخهٔ مینیمال و حرفه‌ای را آماده کن.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/17a28f2b-0717-4088-90c1-813751a3bf0d).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +25,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
