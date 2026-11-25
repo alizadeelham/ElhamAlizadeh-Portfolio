@@ -2,9 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { ArrowUpLeft, ArrowUpRight, Download, Linkedin, Mail, Copy, Check } from "lucide-react";
 
-const BASE = "https://alizadeelham.github.io/alizadeelham-Resume";
-const PHOTO = `${BASE}/elham-alizadeh.jpg`;
-const RESUME = `${BASE}/elham-alizadeh-resume.pdf`;
+// Same filenames, served from the repo root: local in the preview, and
+// https://alizadeelham.github.io/ElhamAlizadeh-Portfolio/<file> once published there.
+const PHOTO = "/photo_2026-09-07_11-36-05.jpg";
+const RESUME = "/Elham_Alizadeh.pdf";
 const EMAIL = "Elhamalizadeh.tula@Gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/elham-alizadeh-a45ab913a";
 
